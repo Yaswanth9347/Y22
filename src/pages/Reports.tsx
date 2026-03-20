@@ -55,7 +55,7 @@ export function Reports() {
         <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
           <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-6">Sprint Success Rate</h2>
           <div className="h-[400px] w-full">
-            <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height={400} minWidth={0}>
               <AreaChart
                 data={data}
                 margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
